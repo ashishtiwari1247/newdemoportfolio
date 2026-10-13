@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Projectspace {
+  height: auto;
+  min-height: 800px;
+  width: 100%;
+  background: linear-gradient(to bottom, #081520 0%, #000014 65%, #076b82 100%);
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.title h3 {
+  color: rgb(241, 241, 241);
+  font-size: 70px;
+  font-family: arial;
+  margin-top: 50px;
+}
+
+.title button {
+  margin-top: 50px;
+  /* margin-left aur invalid 'spa' hata diya hai, kyunki flex space-between khud manage karega */
+  padding: 8px 16px;
+  background-color: yellow;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.AllProjects {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+  padding: 20px;
+}
+
+/* MOBILE KE LIYE RESPONISIVE   */
+@media screen and (max-width: 548px) {
+  .Projectspace {
+    width: 100%;
+    height: auto;
+    min-height: 140px;
+    background: beige;
+    color: black;
+  }
+
+  .title h3 {
+    font-size: 40px !important; /* Mobile par heading ka size chota kiya */
+    margin-left: 10px;
+  }
+
+  .AllProjects {
+    display: grid;
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Ek row me 2 equal columns banayeiga */
+    justify-content: center;
+    align-items: center;
+    gap: 5px; /* Cards ke beech ka gap */
+    padding: 10px;
+    align-items: center;
+  }
+
+  .project-btn {
+    display: none;
+  }
+}
+
+/* TABLET KE LIYE RESPONSIVE  */
+@media screen and (min-width: 549px) and (max-width: 1024px) {
+  .skill {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

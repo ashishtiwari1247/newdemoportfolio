@@ -1,0 +1,90 @@
+.projectbox {
+  height: 450px;
+  width: 500px;
+  border: 2px rgb(201, 208, 7) solid;
+  margin-top: 100px;
+  background-color: rgb(22, 25, 27);
+  border-radius: 40px;
+  box-shadow: 0px 0px 20px black;
+}
+
+.image {
+  height: 200px;
+  width: 280px;
+  border-radius: 20px;
+  justify-content: center;
+  margin: 40px 10px 10px 10px;
+  border: 2px rgb(255, 245, 245) solid;
+}
+
+.projectdesign {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectdesign h2 {
+  color: white;
+  font-family: arial;
+}
+
+.projectdesign p {
+  color: rgb(204, 244, 8);
+  font-family: arial;
+}
+.projectdesign h4 {
+  color: gray;
+  font-family: arial;
+}
+.projectdesign button {
+  background-color: yellow;
+  color: black;
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 548px) {
+  .projectbox {
+    margin-top: 10px;
+    height: 280px; /* <--- Fixed height hata kar auto kiya taaki content ke hisaab se adjust ho */
+    width: 170px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image {
+    height: 140px; /* <--- Mobile ke liye image size thoda behtar kiya */
+    width: 120px;
+    max-width: 220px;
+    height: 120px;
+    margin: 15px auto 10px auto;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .projectdesign h2 {
+    font-size: 14px;
+  }
+
+  .projectdesign p,
+  .projectdesign h4 {
+    font-size: 10px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .projectdesign button {
+    padding: 6px 12px;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 40px;
+    width: 120px;
+  }
+}

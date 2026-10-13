@@ -1,0 +1,217 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aboutbox {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(15, 20, 27);
+  display: flex;
+  justify-content: space-between;
+  border: 2px white solid;
+  box-shadow: 0px 0px 10px rgb(248, 248, 248);
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 50px;
+  text-align: justify;
+  word-spacing: 2px;
+  margin-top: 70px;
+  font-size: 25px;
+  color: rgb(187, 182, 182);
+}
+
+.about button {
+  height: 50px;
+  width: 250px;
+  font-size: 30px;
+  border: 1px white solid;
+  box-shadow: 0px 0px 10px rgb(248, 248, 248);
+}
+
+.about button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.intro {
+  height: 300px;
+  width: 37%;
+  margin-top: 65px;
+  margin-right: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(248, 248, 248);
+  background-color: rgb(15, 22, 27);
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  word-spacing: 3px;
+}
+
+.info {
+  margin-top: 15px;
+  margin-left: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.info svg {
+  margin-top: 5px;
+}
+
+.b0 :hover {
+  background-color: yellow;
+  color: black;
+}
+
+.mobile-aboutbox {
+  display: none;
+}
+
+@media screen and (max-width: 548px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .aboutbox {
+    overflow: hidden;
+    position: relative;
+    background-color: wheat;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: justify;
+    margin-top: 70px;
+    font-size: 18px;
+    margin-left: 5px;
+    color: rgb(26, 6, 6);
+    height: 400px;
+  }
+
+  .about button {
+    height: 50%;
+    width: 250px;
+    font-size: 20px;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px rgb(248, 248, 248);
+  }
+
+  .about button:hover {
+    transform: 1s;
+    background-color: yellow;
+    color: black;
+  }
+
+  .intro {
+    height: 300px;
+    width: 95%;
+    margin-top: 65px;
+    margin-left: 10px;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(248, 248, 248);
+    background-color: rgb(15, 22, 27);
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+}
+
+/* tablet responsive  */
+@media screen and (min-width: 549px) and (max-width: 1024px) {
+  * {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .aboutbox {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(15, 20, 27);
+    display: flex;
+    justify-content: space-between;
+    border: 2px white solid;
+    box-shadow: 0px 0px 10px rgb(248, 248, 248);
+  }
+
+  .about {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-left: 20px;
+    text-align: justify;
+    word-spacing: 2px;
+    margin-top: 80px;
+    font-size: 18px;
+    color: rgb(187, 182, 182);
+  }
+
+  .about .b0 {
+    height: 50px;
+    width: 250px;
+    font-size: 30px;
+    margin-top: 50px;
+    border: 1px white solid;
+    box-shadow: 0px 0px 10px rgb(248, 248, 248);
+  }
+
+  .b0:hover {
+    background-color: rgb(173, 173, 16);
+    color: black;
+  }
+
+  .intro {
+    height: 250px;
+    width: 42%;
+    margin-top: 75px;
+    margin-right: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(248, 248, 248);
+    background-color: rgb(15, 22, 27);
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    word-spacing: 3px;
+  }
+
+  .info {
+    margin-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .info svg {
+    margin-top: 5px;
+  }
+
+  .b0 :hover {
+    background-color: yellow;
+    color: black;
+  }
+
+  .mobile-aboutbox {
+    display: none;
+  }
+}
