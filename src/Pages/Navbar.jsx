@@ -53,8 +53,8 @@ const Navbar = () => {
           <a href="#project">Projects</a>
           <a href="#contact">Contact</a>
           <a
-            href="/ASHISH TIWARI RESUME.pdf"
-            download="ASHISH TIWARI RESUME.pdf"
+            href="/Ashish Tiwari Resume....pdf"
+            download="Ashish Tiwari Resume....pdf"
             className="download-now"
           >
             Download CV
