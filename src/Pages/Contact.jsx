@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="contact">
           <h3 className="text">
             <h3>
-              <FaHome /> Address: <br /> Marihan Mirzapur UP 231309
+              <FaHome /> Address: <br /> Marihan Mirzapur UP
             </h3>{" "}
             <br />
             <h3>
