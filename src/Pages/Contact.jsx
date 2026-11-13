@@ -22,13 +22,13 @@ const Contact = () => {
             <br />
             <h3>
               <IoCall /> Mobile : <br />
-              8081040036
+              8808104035
             </h3>{" "}
             <br />
             <h3>
               {" "}
               <MdMarkEmailRead /> Email: <br />
-              ashishtiwariap78@gmail.com
+              ashishtiwariap009@gmail.com
             </h3>
           </h3>
         </div>
